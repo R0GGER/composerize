@@ -4,6 +4,7 @@ RUN apk update && \
     apk upgrade && \
     apk add make && \
     apk add npm && \
+    apk add git && \
     mkdir /composerize-website
 
 COPY packages/composerize-website /composerize-website
